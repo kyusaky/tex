@@ -1,0 +1,154 @@
+img {
+	width: 100%;
+	display: block;
+}
+
+button {
+	background: radial-gradient(rgb(0, 255, 136), rgb(219, 192, 255));
+	color: aliceblue;
+	border: none;
+	width: 100px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+button {
+	width: 100%;
+	padding: 20px;
+}
+
+.cart {
+	width: 300px;
+	box-shadow: 0 0 15px gray;
+	transition: all 0.5s;
+	margin-bottom: 10px;
+	/* display: grid;
+	grid-template-columns: repeat(3, 1fr); */
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px 75px;
+	max-width: 1400px;
+	margin: 0 auto;
+	max-width: var(--container-widht);
+}
+
+.pla {
+	height: 300px;
+	object-fit: cover;
+}
+
+.cart:hover {
+	transform: scale(1.1);
+}
+
+.cart:active {
+	transform: scale(1.3);
+	transition: all 0.5s;
+}
+
+.b:hover {
+	background: radial-gradient(rgb(0, 217, 255), rgb(255, 192, 218));
+	font-family: "Times New Roman", Times, serif;
+}
+
+.b:active {
+	background: radial-gradient(rgb(47, 0, 255), rgb(245, 192, 255));
+	font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+
+.bg {
+	--container-widht: 1200px;
+	--card-widht-large-screen: calc(var(var(--container-widht)) / 3);
+}
+
+form {
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.d1 {
+	background: #a3d0c3;
+	position: sticky;
+	top: 0;
+	z-index: 1000000000;
+}
+
+.d1 input {
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	border: 2px solid #7ba7ab;
+	border-radius: 5px;
+	outline: none;
+	background: #f9f0da;
+	color: #9e9c9c;
+}
+
+.d1 button {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width: 42px;
+	height: 42px;
+	border: none;
+	background: #7ba7ab;
+	border-radius: 0 5px 5px 0;
+}
+
+.d1 button:before {
+	content: "🔎";
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	color: #f9f0da;
+	text-align: center;
+}
+
+.footer {
+	text-align: right;
+}
+
+.t {
+	background: burlywood;
+	font-size: 20px;
+}
+
+.t:hover {
+	color: aquamarine;
+}
+
+.t:active {
+	transform: scale(1.3);
+	color: black;
+}
+
+.footer {
+	text-align: right;
+}
+
+.cont:hover {
+	background: red;
+	color: aliceblue;
+}
+
+.google {
+	font-size: 20px;
+}
+
+nav {
+	top: 10px;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+}
